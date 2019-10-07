@@ -1,0 +1,31 @@
+# Ensime & EMACS
+.ensime
+.ensime_cache
+*#
+
+# OTHER
+*.log
+target/
+.idea/
+
+.bloop/
+project/.bloop/
+.metals/
+coursier
+
+project/project/
+project/target/
+
+*/target/
+*/project/
+
+releases/
+*.iml
+*.swp
+.arcconfig
+
+*/src/main/resources/application.conf
+*/src/main/resources/sankub.conf
+
+docker/test.env
+
